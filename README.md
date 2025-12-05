@@ -51,12 +51,12 @@ The goal is to help interviewers make better decisions and help candidates under
 
 ## Suggested structure
 
-tech-interview/
-├── cv-evaluation/
-├── interview-questions/
-├── rubrics/
-├── templates/
-└── README.md
+tech-interview/<br>
+├── cv-evaluation/<br>
+├── interview-questions/<br>
+├── rubrics/<br>
+├── templates/<br>
+└── README.md<br>
 
 ## Contributing
 Contributions are welcome if they follow the same principles:
