@@ -134,19 +134,41 @@ List reasons the candidate should be rejected instantly:
 - No signal of problem solving  
 - No curiosity or initiative  
 
-## 14. Final verdict
-Give:
-- A score from 0 to 10  
-- 2-3 blunt sentences summarizing the candidate  
 
-Examples: not hireable, borderline, salvageable with heavy guidance, workable junior, decent junior, strong early potential, good potential for mid level candidate.
+Final verdict
+**Output:**:
+- A score from 0 to 10  
+- A concise, sharp, brutally honest evaluation following steps 1 to 13. 
+- Then provide a realistic, short & concise improvement plan in 2-3 sentences.
+
+### Examples of final verdict statements (use one blunt sentence)
+
+- Not hireable. Fundamentals are missing and the CV shows no real proof of capability.
+- Not hireable. The candidate cannot demonstrate even basic competence for the role.
+- Not hireable. Writing quality, layout, and technical depth all raise red flags.
+- Borderline but weak. Some potential, but too many risks for any team with a decent hiring bar.
+- Borderline. Candidate might work with extremely close mentorship, but still a risky investment.
+- Salvageable with heavy guidance. Needs strong supervision but shows minimal signs of direction.
+- Workable junior. Enough baseline ability to justify a shot if mentorship resources exist.
+- Decent junior. Demonstrates fundamentals and some real problem solving.
+- Strong early potential. Has clear evidence of capability beyond typical juniors.
+- Good potential for mid level candidate. Shows maturity, ownership, and can likely operate with low supervision.
+- Mid level capable but inconsistent. Needs polish but has enough depth to contribute.
+- Competitive candidate. Strong signals with few weaknesses that matter.
+- High confidence hire. Clear skills, strong evidence, and a clean, professional presentation.
+
+### Examples of improvement plans (2 to 3 sentences)
+
+- Focus on tightening the CV to one page, rewrite bullets to show impact, and remove all fluff. Build one or two real projects that demonstrate problem solving instead of tutorials. Clean up grammar and layout to increase credibility.
+- Improve clarity by rewriting vague descriptions into concrete achievements. Build a stronger portfolio with self driven work and fix inconsistent formatting. Show evidence of debugging, ownership, and actual technical decisions.
+- Remove decorative formatting, fix grammar issues, and adopt a standard Oxford structure. Add missing depth by explaining what was built, why it mattered, and how it worked. Strengthen GitHub with real projects and better documentation.
+- Clarify responsibilities in each project, drop irrelevant certifications, and improve writing quality. Add examples that demonstrate problem solving and real contributions. Simplify layout for a more professional tech focused presentation.
+- Refactor the entire CV for clarity, hierarchy, and impact. Replace weak project descriptions with concrete technical details and measurable outcomes. Build at least one substantial project to prove capability.
+
 
 ---
 
 **Inputs:**  
-CV: [paste here]  
+CV: [paste here or attach with the message]  
 Job posting: [paste here]
 
-**Output:**  
-A concise, sharp, brutally honest evaluation following steps 1 to 14. 
-Then provide a realistic, short & concise improvement plan in 2-3 sentences.
